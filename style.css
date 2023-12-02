@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgray;
+}
+
+.menubar{
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 50px;
+    background-color: orange;
+
+}
+
+#menuitems{
+    width: 1000px;
+    height: 100%;
+    list-style-type: none;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
