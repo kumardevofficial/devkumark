@@ -4,131 +4,265 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Second form</title>
+    <link rel="stylesheet" href="styling.css">
 </head>
 <body>
-    <table bgcolor="yellow">
-        <tr>
-            <td colspan="2" align="center"><h1>Student Registration Form</h1></td>
-        </tr>
-        <tr>
-            <td><label for="studentimage">Student Image</label></td>
-            <td>
-                <input type="file">
-                <label >(less than 5 MB)</label>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <label for="studentname">Student Name</label>
-            </td>
-            <td>
-                <input type="text">
-            </td>
-        </tr>
-        <tr>
-            <td><label for="fathername">Father Name</label></td>
-            <td>
-                <input type="text">
-            </td>
-        </tr>
-        <tr>
-            <td><label for="mothername">Mother Name</label></td>
-            <td>
-                <input type="text">
-            </td>
-        </tr>
-        <tr>
-            <td>Gender</td>
-            <td>
-                <label for="mael">Male</label>
-                <input type="radio" name="gender">
-                <label for="female">Female</label>
-                <input type="radio" name="gender">
-                <label for="other">Other</label>
-                <input type="radio" name="gender">
-            </td>
-        </tr>
-        <tr>
-            <td>Date of Birth</td>
-            <td>
-                <input type="num" maxlength="8" placeholder="dd/mm/yyyy">
-            </td>
-        </tr>
-        <tr>
-            <td>Email</td>
-            <td>
-                <input type="email" placeholder="email">
-            </td>
-        </tr>
-        <tr>
-            <td>Level</td>
-            <td>
-                <select name="level">
-                    <option hidden>level</option>
-                    <option value="highschool">High School</option>
-                    <option value="inter">Inter</option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td>Moible NO</td>
-            <td>
-                <input type="num" maxlength="10" placeholder="00 0000 0000">
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2" align="center"><h3>Permanent Address</h3></td>
-            
-        </tr>
-        <tr>
-            <td><label for="state">State</label></td>
-            <td>
-                <input type="state">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <label for="city">City</label>
-            </td>
-            <td>
-                <input type="text" placeholder="city">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <label for="zipcode">Zip Code</label>
-            </td>
-            <td>
-                <input type="num" maxlength="6">
-            </td>
-            <tr>
-                <td colspan="2" align="center"><h3>Temporary Address</h3></td>
-            </tr>
-            <tr>
-                <td>Same as Permanent Address <input type="checkbox"></td>
-            </tr>
-            <tr>
-                <td><label for="state">State</label></td>
-                <td>
-                    <input type="state">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="city">City</label>
-                </td>
-                <td>
-                    <input type="text" placeholder="city">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="zipcode">Zip Code</label>
-                </td>
-                <td>
-                    <input type="num" maxlength="6">
-                </td>
-        </tr>
-    </table>
+    <div class="maindiv">
+        <div class="leftdiv">
+            <table bgcolor="yellow">
+                <tr>
+                    <td colspan="2" align="center"><h1>Student Registration Form</h1></td>
+                </tr>
+                <tr>
+                    <td><label for="studentimage">Student Image</label></td>
+                    <td>
+                        <input type="file">
+                        <label >(less than 5 MB)</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="studentname">Student Name</label>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="fathername">Father Name</label></td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="mothername">Mother Name</label></td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <label for="mael">Male</label>
+                        <input type="radio" name="gender">
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender">
+                        <label for="other">Other</label>
+                        <input type="radio" name="gender">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td>
+                        <input type="num" maxlength="8" placeholder="dd/mm/yyyy">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>
+                        <input type="email" placeholder="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Level</td>
+                    <td>
+                        <select name="level">
+                            <option hidden>level</option>
+                            <option value="highschool">High School</option>
+                            <option value="inter">Inter</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Moible NO</td>
+                    <td>
+                        <input type="num" maxlength="10" placeholder="00 0000 0000">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><h3>Permanent Address</h3></td>
+                    
+                </tr>
+                <tr>
+                    <td><label for="state">State</label></td>
+                    <td>
+                        <input type="state">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="city">City</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="city">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="zipcode">Zip Code</label>
+                    </td>
+                    <td>
+                        <input type="num" maxlength="6">
+                    </td>
+                    <tr>
+                        <td colspan="2" align="center"><h3>Temporary Address</h3></td>
+                    </tr>
+                    <tr>
+                        <td>Same as Permanent Address <input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="state">State</label></td>
+                        <td>
+                            <input type="state">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="city">City</label>
+                        </td>
+                        <td>
+                            <input type="text" placeholder="city">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="zipcode">Zip Code</label>
+                        </td>
+                        <td>
+                            <input type="num" maxlength="6">
+                        </td>
+                </tr>
+            </table>
+        </div>
+        <div class="rightdiv">
+            <pre>
+                <code>
+                    &lt;table bgcolor="yellow"&gt;
+                    &lt;tr&gt;
+                        &lt;td colspan="2" align="center"&gt;&lt;h1&gt;Student Registration Form&lt;/h1&gt;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;&lt;label for="studentimage"&gt;Student Image&lt;/label&gt;&lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;input type="file"&gt;
+                            &lt;label&gt;(less than 5 MB)&lt;/label&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;
+                            &lt;label for="studentname"&gt;Student Name&lt;/label&gt;
+                        &lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;input type="text"&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;&lt;label for="fathername"&gt;Father Name&lt;/label&gt;&lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;input type="text"&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;&lt;label for="mothername"&gt;Mother Name&lt;/label&gt;&lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;input type="text"&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Gender&lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;label for="mael"&gt;Male&lt;/label&gt;
+                            &lt;input type="radio" name="gender"&gt;
+                            &lt;label for="female"&gt;Female&lt;/label&gt;
+                            &lt;input type="radio" name="gender"&gt;
+                            &lt;label for="other"&gt;Other&lt;/label&gt;
+                            &lt;input type="radio" name="gender"&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Date of Birth&lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;input type="num" maxlength="8" placeholder="dd/mm/yyyy"&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Email&lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;input type="email" placeholder="email"&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Level&lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;select name="level"&gt;
+                                &lt;option hidden&gt;level&lt;/option&gt;
+                                &lt;option value="highschool"&gt;High School&lt;/option&gt;
+                                &lt;option value="inter"&gt;Inter&lt;/option&gt;
+                            &lt;/select&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Moible NO&lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;input type="num" maxlength="10" placeholder="00 0000 0000"&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td colspan="2" align="center"&gt;&lt;h3&gt;Permanent Address&lt;/h3&gt;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;&lt;label for="state"&gt;State&lt;/label&gt;&lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;input type="state"&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;
+                            &lt;label for="city"&gt;City&lt;/label&gt;
+                        &lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;input type="text" placeholder="city"&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;
+                            &lt;label for="zipcode"&gt;Zip Code&lt;/label&gt;
+                        &lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;input type="num" maxlength="6"&gt;
+                        &lt;/td&gt;
+                        &lt;tr&gt;
+                            &lt;td colspan="2" align="center"&gt;&lt;h3&gt;Temporary Address&lt;/h3&gt;&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;Same as Permanent Address &lt;input type="checkbox"&gt;&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;&lt;label for="state"&gt;State&lt;/label&gt;&lt;/td&gt;
+                            &lt;td&gt;
+                                &lt;input type="state"&gt;
+                            &lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;
+                                &lt;label for="city"&gt;City&lt;/label&gt;
+                            &lt;/td&gt;
+                            &lt;td&gt;
+                                &lt;input type="text" placeholder="city"&gt;
+                            &lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;
+                                &lt;label for="zipcode"&gt;Zip Code&lt;/label&gt;
+                            &lt;/td&gt;
+                            &lt;td&gt;
+                                &lt;input type="num" maxlength="6"&gt;
+                            &lt;/td&gt;
+                        &lt;/tr&gt;
+                &lt;/table&gt;
+                </code>
+            </pre>
+        </div>
+    </div>
 </body>
 </html>

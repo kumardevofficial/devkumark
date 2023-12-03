@@ -4,102 +4,207 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>first</title>
+    <link rel="stylesheet" href="styling.css">
 </head>
 <body>
-    <table bgcolor="aqua">
-        <tr>
-            <td colspan="2">Student Registration Form</td>
-        </tr>
-        <tr>
-            <td><label for="name">Name</label></td>
-            <td><input type="text" placeholder="name"></td>
-        </tr>
-        <tr>
-            <td><label for="fathername">Father Name</label></td>
-            <td><input type="text" placeholder="father name"></td>
-        </tr>
-        <tr>
-            <td><label for="postaladdress">Postal Address</label></td>
-            <td><input type="text" placeholder="Address"></td>
-        </tr>
-        <tr>
-            <td><label for="sex"></label></td>
-            <td>
-                <input type="radio" name="sex"> Male
-                <input type="radio" name="sex"> Female
-            </td>
-        </tr>
-        <tr>
-            <td><label for="city">City</label></td>
-            <td>
-                <select name="city" >
-                    <option hidden>city</option>
-                    <option value="dhanbad">Dhanbad</option>
-                    <option value="ranchi">Ranchi</option>
-                    <option value="noda">NOida</option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td><label for="course">Course</label></td>
-            <td>
-                <select name="course" >
-                    <option hidden>course</option>
-                    <option value="ba">BA</option>
-                    <option value="bca">BCA</option>
-                    <option value="bsc">BSc</option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td><label for="district">District</label></td>
-            <td>
-                <select name="district">
-                    <option hidden>district</option>
-                    <option value="giridih">Giridih</option>
-                    <option value="jamtra">Jamtra</option>
-                    <option value="dumka">Dumka</option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td><label for="state">State</label></td>
-            <td>
-                <select name="state">
-                    <option hidden>state</option>
-                    <option value="jharkhand">Jharkhand</option>
-                    <option value="delhi">Delhi</option>
-                    <option value="uttarpardesh">UP</option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <label for="pincode">PinCode</label>
-                <td>
-                    <input type="num" maxlength="6">
-                </td>
-            </td>
-        </tr>
-        <tr>
-            <td><label for="email">EmailId</label></td>
-            <td>
-                <input type="email" >
-            </td>
-        </tr>
-        <tr>
-            <td><label for="dob">DOB</label></td>
-            <td>
-                <input type="date">
-            </td>
-        </tr>
-        <tr>
-            <td><label for="mobileno">Mobile No</label></td>
-            <td>
-                <input type="num" maxlength="10">
-            </td>
-        </tr>
+    <div class="maindiv">
+        <div class="leftdiv">
+            <table bgcolor="aqua">
+                <tr>
+                    <td colspan="2">Student Registration Form</td>
+                </tr>
+                <tr>
+                    <td><label for="name">Name</label></td>
+                    <td><input type="text" placeholder="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="fathername">Father Name</label></td>
+                    <td><input type="text" placeholder="father name"></td>
+                </tr>
+                <tr>
+                    <td><label for="postaladdress">Postal Address</label></td>
+                    <td><input type="text" placeholder="Address"></td>
+                </tr>
+                <tr>
+                    <td><label for="sex"></label></td>
+                    <td>
+                        <input type="radio" name="sex"> Male
+                        <input type="radio" name="sex"> Female
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="city">City</label></td>
+                    <td>
+                        <select name="city" >
+                            <option hidden>city</option>
+                            <option value="dhanbad">Dhanbad</option>
+                            <option value="ranchi">Ranchi</option>
+                            <option value="noda">NOida</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="course">Course</label></td>
+                    <td>
+                        <select name="course" >
+                            <option hidden>course</option>
+                            <option value="ba">BA</option>
+                            <option value="bca">BCA</option>
+                            <option value="bsc">BSc</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="district">District</label></td>
+                    <td>
+                        <select name="district">
+                            <option hidden>district</option>
+                            <option value="giridih">Giridih</option>
+                            <option value="jamtra">Jamtra</option>
+                            <option value="dumka">Dumka</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="state">State</label></td>
+                    <td>
+                        <select name="state">
+                            <option hidden>state</option>
+                            <option value="jharkhand">Jharkhand</option>
+                            <option value="delhi">Delhi</option>
+                            <option value="uttarpardesh">UP</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pincode">PinCode</label>
+                        <td>
+                            <input type="num" maxlength="6">
+                        </td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="email">EmailId</label></td>
+                    <td>
+                        <input type="email" >
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="dob">DOB</label></td>
+                    <td>
+                        <input type="date">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="mobileno">Mobile No</label></td>
+                    <td>
+                        <input type="num" maxlength="10">
+                    </td>
+                </tr>
+        
+            </table>
+        </div>
+        <div class="rightdiv">
+            <pre>
+                <code>
+                    &lt;table bgcolor=&quot;aqua&quot;&gt; 
+                        &lt;tr&gt; 
+                            &lt;td colspan=&quot;2&quot;&gt;Student Registration Form&lt;/td&gt; 
+                        &lt;/tr&gt; 
+                        &lt;tr&gt; 
+                            &lt;td&gt;&lt;label for=&quot;name&quot;&gt;Name&lt;/label&gt;&lt;/td&gt; 
+                            &lt;td&gt;&lt;input type=&quot;text&quot; placeholder=&quot;name&quot;&gt;&lt;/td&gt; 
+                        &lt;/tr&gt; 
+                        &lt;tr&gt; 
+                            &lt;td&gt;&lt;label for=&quot;fathername&quot;&gt;Father Name&lt;/label&gt;&lt;/td&gt; 
+                            &lt;td&gt;&lt;input type=&quot;text&quot; placeholder=&quot;father name&quot;&gt;&lt;/td&gt; 
+                        &lt;/tr&gt; 
+                        &lt;tr&gt; 
+                            &lt;td&gt;&lt;label for=&quot;postaladdress&quot;&gt;Postal Address&lt;/label&gt;&lt;/td&gt; 
+                            &lt;td&gt;&lt;input type=&quot;text&quot; placeholder=&quot;Address&quot;&gt;&lt;/td&gt; 
+                        &lt;/tr&gt; 
+                        &lt;tr&gt; 
+                            &lt;td&gt;&lt;label for=&quot;sex&quot;&gt;&lt;/label&gt;&lt;/td&gt; 
+                            &lt;td&gt; 
+                            &lt;input type=&quot;radio&quot; name=&quot;sex&quot;&gt; Male 
+                            &lt;input type=&quot;radio&quot; name=&quot;sex&quot;&gt; Female 
+                            &lt;/td&gt; 
+                        &lt;/tr&gt; 
+                        &lt;tr&gt; 
+                            &lt;td&gt;&lt;label for=&quot;city&quot;&gt;City&lt;/label&gt;&lt;/td&gt; 
+                            &lt;td&gt; 
+                            &lt;select name=&quot;city&quot; &gt; 
+                                &lt;option hidden&gt;city&lt;/option&gt; 
+                                &lt;option value=&quot;dhanbad&quot;&gt;Dhanbad&lt;/option&gt; 
+                                &lt;option value=&quot;ranchi&quot;&gt;Ranchi&lt;/option&gt; 
+                                &lt;option value=&quot;noda&quot;&gt;NOida&lt;/option&gt; 
+                            &lt;/select&gt; 
+                            &lt;/td&gt; 
+                        &lt;/tr&gt; 
+                        &lt;tr&gt; 
+                            &lt;td&gt;&lt;label for=&quot;course&quot;&gt;Course&lt;/label&gt;&lt;/td&gt; 
+                            &lt;td&gt; 
+                            &lt;select name=&quot;course&quot; &gt; 
+                                &lt;option hidden&gt;course&lt;/option&gt; 
+                                &lt;option value=&quot;ba&quot;&gt;BA&lt;/option&gt; 
+                                &lt;option value=&quot;bca&quot;&gt;BCA&lt;/option&gt; 
+                                &lt;option value=&quot;bsc&quot;&gt;BSc&lt;/option&gt; 
+                            &lt;/select&gt; 
+                            &lt;/td&gt; 
+                        &lt;/tr&gt; 
+                        &lt;tr&gt; 
+                            &lt;td&gt;&lt;label for=&quot;district&quot;&gt;District&lt;/label&gt;&lt;/td&gt; 
+                            &lt;td&gt; 
+                            &lt;select name=&quot;district&quot;&gt; 
+                                &lt;option hidden&gt;district&lt;/option&gt; 
+                                &lt;option value=&quot;giridih&quot;&gt;Giridih&lt;/option&gt; 
+                                &lt;option value=&quot;jamtra&quot;&gt;Jamtra&lt;/option&gt; 
+                                &lt;option value=&quot;dumka&quot;&gt;Dumka&lt;/option&gt; 
+                            &lt;/select&gt; 
+                            &lt;/td&gt; 
+                        &lt;/tr&gt; 
+                        &lt;tr&gt; 
+                            &lt;td&gt;&lt;label for=&quot;state&quot;&gt;State&lt;/label&gt;&lt;/td&gt; 
+                            &lt;td&gt; 
+                            &lt;select name=&quot;state&quot;&gt; 
+                                &lt;option hidden&gt;state&lt;/option&gt; 
+                                &lt;option value=&quot;jharkhand&quot;&gt;Jharkhand&lt;/option&gt; 
+                                &lt;option value=&quot;delhi&quot;&gt;Delhi&lt;/option&gt; 
+                                &lt;option value=&quot;uttarpardesh&quot;&gt;UP&lt;/option&gt; 
+                            &lt;/select&gt; 
+                            &lt;/td&gt; 
+                        &lt;/tr&gt; 
+                        &lt;tr&gt; 
+                            &lt;td&gt; 
+                            &lt;label for=&quot;pincode&quot;&gt;PinCode&lt;/label&gt; 
+                            &lt;td&gt; 
+                            &lt;input type=&quot;num&quot; maxlength=&quot;6&quot;&gt; 
+                            &lt;/td&gt; 
+                        &lt;/tr&gt; 
+                        &lt;tr&gt; 
+                            &lt;td&gt;&lt;label for=&quot;email&quot;&gt;EmailId&lt;/label&gt;&lt;/td&gt; 
+                            &lt;td&gt; 
+                            &lt;input type=&quot;email&quot; &gt; 
+                            &lt;/td&gt; 
+                        &lt;/tr&gt; 
+                        &lt;tr&gt; 
+                            &lt;td&gt;&lt;label for=&quot;dob&quot;&gt;DOB&lt;/label&gt;&lt;/td&gt; 
+                            &lt;td&gt; 
+                            &lt;input type=&quot;date&quot;&gt; 
+                            &lt;/td&gt; 
+                        &lt;/tr&gt; 
+                        &lt;tr&gt; 
+                            &lt;td&gt;&lt;label for=&quot;mobileno&quot;&gt;Mobile No&lt;/label&gt;&lt;/td&gt; 
+                            &lt;td&gt; 
+                            &lt;input type=&quot;num&quot; maxlength=&quot;10&quot;&gt; 
+                            &lt;/td&gt; 
+                        &lt;/tr&gt; 
+                        &lt;/table&gt;
 
-    </table>
+                </code>
+            </pre>
+        </div>
+    </div>
 </body>
 </html>
